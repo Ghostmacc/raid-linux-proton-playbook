@@ -38,6 +38,38 @@ In our testing, the Steam launch path can tie login behavior to Steam account co
 ./scripts/create-desktop-shortcuts.sh
 ```
 
+## One-Shot Bootstrap
+
+Run the full known-good flow:
+
+```bash
+./scripts/bootstrap-raid-proton.sh
+```
+
+Useful flags:
+
+```bash
+./scripts/bootstrap-raid-proton.sh --launch
+./scripts/bootstrap-raid-proton.sh --skip-install --launch
+./scripts/bootstrap-raid-proton.sh --installer "/path/to/PlariumPlayInstaller.exe"
+```
+
+## After RAID Updates
+
+RAID updates can overwrite WebView arguments and break `Tournaments` / `Events`.
+
+Reapply the fix with:
+
+```bash
+./scripts/reapply-raid-webview-fix.sh
+```
+
+You can also pass the args file directly:
+
+```bash
+./scripts/reapply-raid-webview-fix.sh "/path/to/WebViewCommandLineArgs.txt"
+```
+
 ## What gets created
 
 - Proton prefix: `~/.local/share/proton-prefixes/plarium-play`

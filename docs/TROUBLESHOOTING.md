@@ -53,3 +53,17 @@ If log lines continue (`AssetBundleLoader` loaded/loading), wait.
 ## No audio until opening settings
 
 Known issue seen in session. Workaround: open in-game audio settings once after startup to force re-init.
+
+## Tournaments / Events timeout
+
+If Tournaments or Events fail with connection timeout after an update, reapply the webview args fix:
+
+```bash
+./scripts/reapply-raid-webview-fix.sh
+```
+
+If needed, pass the exact args file:
+
+```bash
+./scripts/reapply-raid-webview-fix.sh "/path/to/WebViewCommandLineArgs.txt"
+```
