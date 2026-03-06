@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Install Plarium (Proton)
+Comment=Install standalone Plarium Play using Proton Experimental
+Exec={{REPO_DIR}}/scripts/install-plarium-proton.sh
+Icon=applications-games
+Terminal=true
+StartupNotify=true
+Categories=Game;

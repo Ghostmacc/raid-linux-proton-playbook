@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Install RAID (Steam)
+Comment=Open Steam install prompt for RAID: Shadow Legends
+Exec=steam steam://install/2333480
+Icon=steam
+Terminal=false
+StartupNotify=true
+Categories=Game;

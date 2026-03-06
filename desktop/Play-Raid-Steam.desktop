@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Play RAID (Steam)
+Comment=Launch RAID: Shadow Legends from Steam
+Exec=steam steam://rungameid/2333480
+Icon=steam
+Terminal=false
+StartupNotify=true
+Categories=Game;

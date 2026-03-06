@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Plarium Play (Proton)
+Comment=Launch standalone Plarium Play using Proton Experimental
+Exec={{REPO_DIR}}/scripts/launch-plarium-proton.sh
+Icon=applications-games
+Terminal=true
+StartupNotify=true
+Categories=Game;
